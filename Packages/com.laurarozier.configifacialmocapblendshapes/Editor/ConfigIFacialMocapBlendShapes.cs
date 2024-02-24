@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Collections.Immutable;
 using System.IO;
 using System.Linq;
 using UnityEditor;
@@ -296,7 +295,7 @@ public class ConfigIFacialMocapBlendShapes : EditorWindow
             if (blendShapeProxy != null)
             {
                 var validMeshes = blendShapeProxy.gameObject.GetComponentsInChildren<SkinnedMeshRenderer>(true)
-                    .Where(x => x.sharedMesh.blendShapeCount > 0).ToImmutableArray();
+                    .Where(x => x.sharedMesh.blendShapeCount > 0).ToArray();
                 var options = new List<string>();
 
                 foreach (var mesh in validMeshes)

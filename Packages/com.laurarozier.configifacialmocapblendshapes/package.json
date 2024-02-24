@@ -1,0 +1,22 @@
+{
+  "name": "com.laurarozier.configifacialmocapblendshapes",
+  "displayName": "Config IFacialMocap BlendShapes",
+  "description": "Quickly configure your IFacialMocap blendshapes for your VRM project.",
+  "version": "1.0.1",
+  "unity": "2019.4",
+  "author": {
+    "name": "LauraRozier",
+    "email": "laura@chatfrog.games",
+    "url": "https://github.com/LauraRozier"
+  },
+  "keywords": [
+    "laurarozier",
+    "IFacialMocap",
+    "BlendShapes"
+  ],
+  "type": "tool",
+  "vpmDependencies": {},
+  "license": "MIT",
+  "licensesUrl": "https://github.com/LauraRozier/LauraEditor/blob/master/LICENSE",
+  "changelogUrl": "https://github.com/LauraRozier/LauraEditor/blob/master/CHANGELOG.md"
+}
